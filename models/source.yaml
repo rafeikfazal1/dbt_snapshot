@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    description: "contains raw data from source system"
+    schema: raw
+    tables:
+      - name: employee
+        description: "contain one row per employee"
+       
